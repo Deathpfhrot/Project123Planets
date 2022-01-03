@@ -22,7 +22,7 @@ h1{
     padding: 2rem 5rem;
 }
 
-section:nth-of-type(2){
+header section:nth-of-type(2){
     width: 15%;
     margin: 0 auto;
     padding-top: 15rem;
