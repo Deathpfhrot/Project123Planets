@@ -1,0 +1,32 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header{
+    height: 8vh;
+}
+
+section:nth-of-type(1){
+    height: 92vh;
+    background: url(../img/) no-repeat center/cover; /*short hand*/
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center; /*zeigt das bild centrierter*/
+}
+
+article{
+    width: 15%;
+    margin: 0 auto;
+    padding-top: 18%;
+}
+
+h2{
+    font-size: 3rem;
+    color: #fff;
+}
+
+img:nth-of-type(2), image:nth-of-type(5){
+    
+}
