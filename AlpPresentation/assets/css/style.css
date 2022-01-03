@@ -1,0 +1,112 @@
+@import url('https://fonts.googleapis.com/css2?family=Cinzel&family=Poppins&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+a {
+    text-decoration: none;
+    color: #ccc;
+}
+
+h1 {
+    font-family: 'Cinzel';
+    font-weight: 100;
+    padding: .7%;
+    font-size: 1.5rem;
+    color: #ccc;
+}
+
+main section h2, h3, h4 {
+    font-family: 'Cinzel';
+    font-weight: 100;
+}
+
+h2, h3, h4 {
+    text-align: center;
+}
+
+p, li {
+    font-family: 'Poppins', sans-serif;
+    list-style: none;
+    padding-bottom: 20px;
+}
+
+main section:not(:nth-of-type(1)) {
+    width: 80%;
+    margin: 5rem auto;
+}
+
+img {
+    width: 30%;
+}
+
+header {
+    height: 8vh;
+}
+
+section:nth-of-type(1) {
+    height: 92vh;
+    background: url(../img/bg.jfif) no-repeat center/cover;
+}
+
+article {
+    width: 18%;
+    margin: 0 auto;
+    padding-top: 18%;
+}
+
+h2 {
+    font-size: 3rem;
+    color: #fff;
+}
+
+section h3 {
+    margin: 3rem;
+}
+
+img:nth-of-type(2), img:nth-of-type(5) {
+    margin: 0 4%;
+}
+
+li:nth-of-type(1)::after {
+    content: "- SOLD OUT";
+    color: red;
+}
+
+li:nth-of-type(2)::after {
+    content: "- SOLD OUT";
+    color: red;
+}
+
+li:nth-of-type(3)::after {
+    content: "- SOLD OUT";
+    color: red;
+}
+
+li:nth-of-type(4)::after {
+    content: "- ONLY 4 SPOT AVAILABLE";
+    color: red;
+}
+
+li:nth-of-type(5)::after {
+    content: "- AVAILABLE";
+    color: green;
+}
+
+li:nth-of-type(6)::after {
+    content: "- AVAILABLE";
+    color: green;
+}
+
+footer {
+    border-top: 1px solid #ccc;
+    text-align: center;
+}
+
+footer h4 {
+    font-size: 1.5rem;
+    padding: 20px;
+}
